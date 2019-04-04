@@ -1,0 +1,211 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menubar{
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 100px;
+  width: 100%;
+  background: #444;
+  box-sizing: border-box;
+  border-bottom:7px solid #029bd4;
+}
+
+
+.menubar ul{
+  list-style: none;
+  /*border: 1px solid blue; */
+}
+
+.menubar li{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.menubar a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.menubar a:hover{
+  color: #029bd4;
+}
+
+
+/*===========  le contenu de la page d'accueil ==========*/
+
+
+.first_part{         /*=========== partie 1 ==========*/
+  position: absolute;
+  top:70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  margin-bottom: 20%;
+  padding: 40px;
+  background: transparent;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.first_part h1{
+  font-family: cursive;
+  font-size: 50px;
+}
+
+.second_part{    /*===========  nos nouveautes ==========*/
+  position: absolute;
+  width: 100%;
+  top: 130%;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+.second_part .titre-content p{
+  font-size: 25px;
+  text-align: center;
+  width: auto;
+  color: #fff;
+  background-color: #029bd4;
+}
+
+.second_part .titre-content{
+  margin-top: -50px;
+  margin-left: 250px;
+  margin-bottom: 15px;
+  width: 60%;
+  border: 1px solid #029bd4;
+  border-radius: 5px;
+  background-color: #029bd4;
+}
+
+.second_part .titre-content p{
+  font-size: 2em;
+  font-family: monospace;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.second_part .content-news{
+  margin-left: 20px;
+}
+
+.second_part .content-news video{
+  margin: 5px;
+}
+
+
+.btn_inscription{     /*===========  le bouton d'Inscription ==========*/
+  position: absolute;
+  width: 50%;
+  top: 220%;
+  padding: 10px;
+  margin-left: 325px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  border-radius: 25px;
+  background-color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn_inscription:hover{
+  background-color: #555;
+  border: 1px solid #555;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.btn_inscription a{
+  font-family: Tw Cen MT;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.third_part{    /*===========  nos plans d'abonnement ==========*/
+  position: absolute;
+  width: 100%;
+  top: 250%;
+  padding: 5px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.third_part .titre-content{
+  margin-top: -100px;
+  margin-left: 250px;
+  margin-bottom: 15px;
+  width: 60%;
+
+}
+
+.third_part .titre-content p{
+  font-size: 2em;
+  font-family: monospace;
+  text-align: center;
+  color: #000;
+  letter-spacing: 5px;
+}
+
+.third_part .content-news{
+  width: 100%;
+  border: 1px solid red;
+}
+
+.third_part .content-news .plan-detail{
+  float: left;
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top:  50px;
+  margin-bottom: 50px;
+  margin-left: 45px;
+  background-color: #029bd4;
+}
+
+.third_part .content-news .plan-detail p{
+  color: #fff;
+  font-size: 2em;
+  font-family:Arial;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+  font-weight: bold;
+}
+
+.third_part .content-news .plan-detail .formule li{
+  color: #000;
+  font-size: 1em;
+  font-family:trebuchet ms;
+  margin-bottom: 20px;
+  list-style-type: square;
+}
+
+
+
+.foot {         /*===========  le bas de page ==========*/
+  position: absolute;
+  width: 100%;
+  top: 350%;
+  box-sizing: border-box;
+  border-top: 3px solid #029bd4;
+}
+
+.foot p{
+  text-align: center;
+  font-family: "century Gothic";
+}
+
+.foot a{
+  color: #029bd4;
+  font-weight: bold;
+}

@@ -1,0 +1,103 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.menubar{
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 100px;
+  width: 100%;
+  background: #444;
+  box-sizing: border-box;
+  border-bottom:7px solid #029bd4;
+}
+
+
+.menubar ul{
+  list-style: none;
+  /*border: 1px solid blue; */
+}
+
+.menubar li{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.menubar a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.menubar a:hover{
+  color: #029bd4;
+}
+
+
+/*===========  le contenu de la page abonnement ==========*/
+
+.visionnage{    /*===========  nos nouveautes ==========*/
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  border-top: 5px solid #029bd4;
+  min-height: 610px;
+}
+
+.visionnage .titre-visionnage {
+  position: absolute;
+  text-align: center;
+  width: 85%;
+  top: -17%;
+  margin-left: 82px;
+  color: #fff;
+  background-color: #029bd4;
+}
+
+
+.visionnage .titre-visionnage p{
+  font-size: 2em;
+}
+
+.visionnage .titre-visionnage a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-style: italic;
+}
+
+.visionnage .contenair-visionnage{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.visionnage .contenair-visionnage video{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+.foot {         /*===========  le bas de page ==========*/
+  position: absolute;
+  width: 100%;
+  top: 230%;
+  box-sizing: border-box;
+  border-top: 3px solid #029bd4;
+}
+
+.foot p{
+  text-align: center;
+  font-family: "century Gothic";
+}
+
+.foot a{
+  color: #029bd4;
+  font-weight: bold;
+}

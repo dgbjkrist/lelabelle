@@ -1,0 +1,27 @@
+html,body {
+    margin: 0;
+    font-family: 'Agency FB', 'Arial Narrow', Arial, sans-serif;
+   }
+
+.menu{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu a{
+    color: orange;
+}
+
+#login{
+    font-size: 20px;
+    text-align: right;
+}
+
+   .table-success{
+       color: #87cc17;
+   }
+
+   .table-warning{
+    color: #ff9000;
+   }

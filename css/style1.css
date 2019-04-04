@@ -1,0 +1,19 @@
+html,body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    margin-top:10px;
+    background-color: #87cc17;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 200px;
+  }
+
+.body{
+    margin-top:10px;
+}

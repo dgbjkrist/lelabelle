@@ -1,0 +1,35 @@
+body{
+  background-color: #fff;
+  font-family: "Agency FB";
+}
+
+
+.errordiv{
+  position: relative;
+  margin-left: 18%;
+  margin-right: 18%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  border-radius: 2px;
+  box-sizing: border-box;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, .5); */
+
+}
+
+.errordiv h1{
+  color: red;
+  font-size: 60px;
+  font-family: "Agency FB";
+  font-weight: bold;
+}
+
+.errordiv p{
+  font-size: 25px;
+}
+
+.errordiv a{
+  font-style: italic;
+  font-size: 35px;
+  text-decoration: none;
+  color:#87cc17;
+}

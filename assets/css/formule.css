@@ -1,0 +1,140 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.menubar{
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 100px;
+  width: 100%;
+  background: #444;
+  box-sizing: border-box;
+  border-bottom:7px solid #029bd4;
+}
+
+
+.menubar ul{
+  list-style: none;
+  /*border: 1px solid blue; */
+}
+
+.menubar li{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.menubar a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.menubar a:hover{
+  color: #029bd4;
+}
+
+
+/*===========  le contenu de la page abonnement ==========*/
+
+.choix_abonnement{    /*===========  nos nouveautes ==========*/
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  border-top: 5px solid #029bd4;
+  min-height: 610px;
+}
+
+.choix_abonnement .titre-abonnement {
+  position: absolute;
+  text-align: center;
+  width: 85%;
+  top: -17%;
+  margin-left: 82px;
+  color: #029bd4;
+  background-color: #fff;
+}
+
+
+.choix_abonnement .titre-abonnement p{
+  font-size: 2em;
+}
+
+.choix_abonnement .contenair-abonnement{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+.choix_abonnement .contenair-abonnement .plan-detail{
+  float: left;
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top:  50px;
+  margin-bottom: 50px;
+  margin-left: 45px;
+  background-color: #029bd4;
+}
+
+.choix_abonnement .contenair-abonnement .plan-detail p{
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  min-height: 100px;
+  color: #fff;
+  background-color: #029bd4;
+}
+
+.choix_abonnement .contenair-abonnement .plan-detail a{
+  position: absolute;
+  font-size: 25px;
+  font-family: serif;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 85px;
+  padding: 10px;
+  margin-top: -40px;
+  width: 10%;
+  color: #fff;
+  background-color: red;
+}
+
+.choix_abonnement .contenair-abonnement .plan-detail a:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+.choix_abonnement .contenair-abonnement .plan-detail .formule li{
+  color: #000;
+  font-size: 1em;
+  font-family: 'trebuchet MS';
+  margin-bottom: 25px;
+}
+
+.choix_abonnement .contenair-abonnement .plan-detail .formule li:last-child{
+  margin-bottom: 100px;
+}
+
+
+.foot {         /*===========  le bas de page ==========*/
+  position: absolute;
+  width: 100%;
+  top: 230%;
+  box-sizing: border-box;
+  border-top: 3px solid #029bd4;
+}
+
+.foot p{
+  text-align: center;
+  font-family: "century Gothic";
+}
+
+.foot a{
+  color: #029bd4;
+  font-weight: bold;
+}
